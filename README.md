@@ -9,7 +9,7 @@ If instead of using unraid which ships freely with your lincstation N1, you've d
 
 2. Make the go script executable:
 ```
-sudo chmod +x /home/fx2mx3/lincstation_boot/go.sh
+sudo chmod +x mnt/Fast/Home/lincstation_boot/go.sh
 ```
 
 3. Copy the startup service to /etc/systemd/system/custom-startup.service
