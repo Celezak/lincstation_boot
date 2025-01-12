@@ -4,7 +4,8 @@ If instead of using unraid which ships freely with your lincstation N1, you've d
 
 1. Clone this project to your truenas home directory. After cloning you should have the path:
 ```
-/home/fx2mx3/lincstation_boot
+mnt/Fast/Home/lincstation_boot
+sudo git clone https://github.com/Celezak/lincstation_boot.git
 ```
 
 2. Make the go script executable:
@@ -14,7 +15,7 @@ sudo chmod +x mnt/Fast/Home/lincstation_boot/go.sh
 
 3. Copy the startup service to /etc/systemd/system/custom-startup.service
 ```
-sudo cp /home/fx2mx3/lincstation_boot/custom-startup.service /etc/systemd/system/custom-startup.service 
+sudo cp /mnt/Fast/Home/lincstation_boot/custom-startup.service /etc/systemd/system/custom-startup.service 
 ```
 
 4. Reload systemd, enable and start the service
