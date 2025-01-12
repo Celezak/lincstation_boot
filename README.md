@@ -10,7 +10,7 @@ sudo git clone https://github.com/Celezak/lincstation_boot.git
 
 2. Make the go script executable:
 ```
-sudo chmod +x mnt/Fast/Home/lincstation_boot/go.sh
+sudo chmod +x /mnt/Fast/Home/lincstation_boot/go.sh
 ```
 
 3. Copy the startup service to /etc/systemd/system/custom-startup.service
