@@ -4,7 +4,7 @@ If instead of using unraid which ships freely with your lincstation N1, you've d
 
 1. Clone this project to your truenas home directory. After cloning you should have the path:
 ```
-mnt/Fast/Home/lincstation_boot
+#mnt/Fast/Home/lincstation_boot
 sudo git clone https://github.com/Celezak/lincstation_boot.git
 ```
 
