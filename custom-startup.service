@@ -3,7 +3,7 @@ Description=LincStation LED and Reset for TrueNas
 After=network.target
 
 [Service]
-ExecStart=/home/fx2mx3/lincstation_boot/go.sh
+ExecStart=/mnt/Fast/Home/lincstation_boot/go.sh
 Type=forking
 
 [Install]
